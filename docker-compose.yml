@@ -2,7 +2,7 @@ version: '3'
 services:
   server:
     build: ./server
-    image: hub_id/cloudcomputinggroup161:latest
+    image: 1nikita/cloudcomputinggroup161:latest
     container_name: cloudcomputinggroup161
     depends_on:
       - "mongodb"
